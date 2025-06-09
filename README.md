@@ -1,36 +1,76 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Startup Nest
+A modern, high-performance startup listing platform built with Next.js, TypeScript, Tailwind CSS, and React.
 
-## Getting Started
+🚀 Features
+List and discover innovative startups
 
-First, run the development server:
+Built with TypeScript for type safety
 
-```bash
+Styled with Tailwind CSS for rapid UI development
+
+Powered by Next.js for SSR, SSG, and API routes
+
+Fully responsive and mobile-friendly
+
+🛠️ Tech Stack
+Next.js – React framework for production
+
+TypeScript – Strongly typed JavaScript
+
+Tailwind CSS – Utility-first CSS framework
+
+React – UI library
+
+📦 Getting Started
+Prerequisites
+Node.js (v16 or newer)
+
+npm or yarn
+
+1. Clone the Repository
+bash
+git clone https://github.com/yourusername/startup-nest.git
+cd startup-nest
+2. Install Dependencies
+bash
+npm install
+# or
+yarn install
+3. Run the Development Server
+bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000 to view the app.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🧑‍💻 Project Structure
+text
+startup-nest/
+├── components/
+├── pages/
+│   ├── _app.tsx
+│   └── index.tsx
+├── public/
+├── styles/
+│   └── globals.css
+├── tailwind.config.js
+├── tsconfig.json
+└── ...
+🎨 Styling
+Tailwind CSS is configured in tailwind.config.js and imported in styles/globals.css:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+⚙️ Scripts
+dev – Runs the app in development mode
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+build – Builds the app for production
 
-## Learn More
+start – Starts the production server
 
-To learn more about Next.js, take a look at the following resources:
+lint – Runs ESLint
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🤝 Contributing
+Contributions are welcome! Please open issues or submit pull requests for improvements.
