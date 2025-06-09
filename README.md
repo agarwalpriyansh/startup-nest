@@ -51,8 +51,9 @@ yarn install
 NEXT_PUBLIC_API_URL=your_api_url_here
 ```
 
-4. Run the development server:
->>>>>>> f41126a (updated README.md file)
+4. Run the development server: http://localhost:3000 
+
+    
 
 Styled with Tailwind CSS for rapid UI development
 
@@ -90,24 +91,7 @@ npm run dev
 # or
 yarn dev
 
-Open http://localhost:3000 to view the app.
-
-🧑‍💻 Project Structure
-text
-startup-nest/
-├── components/
-├── pages/
-│   ├── _app.tsx
-│   └── index.tsx
-├── public/
-├── styles/
-│   └── globals.css
-├── tailwind.config.js
-├── tsconfig.json
-└── ...
-🎨 Styling
-Tailwind CSS is configured in tailwind.config.js and imported in styles/globals.css:
-
+.
 
 ## 📁 Project Structure
 
